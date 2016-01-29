@@ -11,10 +11,8 @@ function setup(){
 	speed = 1;
 
 	for (var i = 0; i <= numBubbles; i++){
-      	bubbles.push(new Bubble());
+      	bubbles.push(new Bubble(random(0, windowWidth),random(0, windowHeight)));
   	}
-
-  	
 
 }
 
@@ -34,13 +32,17 @@ function draw(){
 	    if (abubble.offScreen()) {
 	      bubbles.splice(i, 1);
 	    }
+	    if (abubble.popped()) {
+	      bubbles.splice(i, 1);
+	    }
+	    
   	}
 
   	if(bubbles.length <= numBubbles){
-    	bubbles.push(new Bubble());
+      	bubbles.push(new Bubble(random(0, windowWidth),random(windowHeight-50, windowHeight)));
   	}
 
-	console.log(bubbles.length);	
+	//console.log(bubbles.length);	
 	
 }
 

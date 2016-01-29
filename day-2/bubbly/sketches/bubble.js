@@ -1,6 +1,6 @@
-function Bubble() {
-	this.x = random(0, windowWidth);
-	this.y = random(0, windowHeight);
+function Bubble(_x, _y) {
+	this.x = _x;
+	this.y = _y;
 	this.xspeed = random(-1, 1);
 	this.yspeed = 5;
 	this.origin = this.x;
@@ -30,5 +30,15 @@ function Bubble() {
 			return false;
 		}
 
+	}
+
+	this.popped = function(){
+		var d = int(dist(this.x, this.y, mouseX, mouseY));
+		if(d<30){
+			return true;
+		} else{
+			return false;
+		}
+		
 	}
 }
