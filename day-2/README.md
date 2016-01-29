@@ -14,6 +14,7 @@ Together we will create a collaborative mood board. Today we'll focus on object 
 
 The best part of this will be hosting all of this on a git repo so that we will be able to see how everyone made their piece / anyone in the creative code community will be able to see our work.
 
-![alt text][http://f.cl.ly/items/0K3p0B0G1b2d1u2R0r0P/00000.png "home"]
+![home](http://f.cl.ly/items/0K3p0B0G1b2d1u2R0r0P/00000.png)
 
-![alt text][http://f.cl.ly/items/0S130Z3c0l3G46022I37/1111111.png "sketch"]
+
+![sketch](http://f.cl.ly/items/0S130Z3c0l3G46022I37/1111111.png)
